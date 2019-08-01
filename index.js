@@ -17,11 +17,9 @@ inquirer
 		}
 	])
 	.then((answers) => {
-		// Use user feedback for... whatever!!
 		if ((answers.userType == 'user')) {
       normalUser();
 		} else {
-      // console.log(answers)
 			adminUser();
 		}
 	});

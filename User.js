@@ -41,7 +41,6 @@ class User {
 	}
 	chooseATMOperation() {
 		// console.clear()
-		console.log(totalAmountInAtm['amountInATM']);
 		if (totalAmountInAtm['atmCanDispense']) {
 			inquirer
 				.prompt([

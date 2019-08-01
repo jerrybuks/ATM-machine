@@ -63,7 +63,7 @@ class Admin{
                 name: 'amount',
                 message: 'Please Input amount, maximum of 1 million naira (#)',
                 validate: function( value ) {
-                    if (value > 0 && (value< 1000000) ) {
+                    if (value > 0 && (value<= 1000000) ) {
                         console.log("\n")
                         console.log("Amount was succesfully added to the ATM")
                       return true;
